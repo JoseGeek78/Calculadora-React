@@ -11,8 +11,12 @@ function App() {
       alt='Logo Binario' />
       </div>
      <div className='contenedor-calculadora'>
-
-     </div>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      </div>
     </div>
   );
 }
