@@ -1,9 +1,15 @@
 import './App.css';
+import binarycode from './imagenes/binarycode-logo.jpg'
 
 function App() {
   return (
     <div className="App">
-      Hola
+      <div className='binarycode-logo-contedor'>
+    <img 
+      src={binarycode}
+      className='binarycode-logo'
+      alt='Logo Binario' />
+      </div>
     </div>
   );
 }
