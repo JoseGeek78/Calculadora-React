@@ -2,6 +2,7 @@ import './App.css';
 import binarycode from './imagenes/binarycode-logo.jpg'
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
+import BotonClear from './componentes/BotonClear';
 
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
         <Boton>.</Boton>
         <Boton>/</Boton>
       </div>
-      <div className='fila'></div>
+      <div className='fila'>
+        <BotonClear>Clear</BotonClear>
+      </div>
       </div>
     </div>
   );
