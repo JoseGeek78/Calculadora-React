@@ -1,6 +1,7 @@
 import './App.css';
 import binarycode from './imagenes/binarycode-logo.jpg'
 import Boton from './componentes/Boton';
+import Pantalla from './componentes/Pantalla';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       alt='Logo Binario' />
       </div>
      <div className='contenedor-calculadora'>
+       <Pantalla />
       <div className='fila'>
         <Boton>1</Boton>
         <Boton>2</Boton>
